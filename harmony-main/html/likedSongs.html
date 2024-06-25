@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Song Search</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/likedSongs.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+
+    <div class="song-card">
+        <div class="card-content">
+            <h5 class="card-title">Song Title</h5>
+            <p class="card-artist">Artist Name</p>
+            <img class="card-image" src="image.jpg" alt="Song Image">
+            <audio controls class="audio-controls">
+                <source src="song.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+        <div class="like-button">
+            <i class="fa fa-heart"></i> <!-- Font Awesome heart icon -->
+        </div>
+    </div>
+    
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="../js/likedSongs.js" > </script>
+
+</body>
+</html>

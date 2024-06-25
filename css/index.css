@@ -1,0 +1,102 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+/* Navbar Styles */
+.navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.nav-link {
+    font-size: 1rem;
+}
+
+.form-inline .form-control {
+    width: auto;
+}
+
+.form-inline .btn {
+    margin-left: 10px;
+}
+
+/* Intro Section */
+.intro {
+    background-color: #e9ecef;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.intro h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.intro p {
+    font-size: 1.2rem;
+    color: #6c757d;
+}
+
+/* Features Section */
+.features {
+    padding: 50px 0;
+    background-color: #fff;
+}
+
+.feature {
+    margin-bottom: 30px;
+}
+
+.feature .card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.feature .card-body {
+    text-align: center;
+}
+
+.feature .card-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.feature .card-text {
+    font-size: 1rem;
+    color: #6c757d;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 30px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}

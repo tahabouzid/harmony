@@ -86,8 +86,6 @@ else if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $stmt = $conn->prepare($sql);
         $stmt->bind_param('si', $likedSongsJson, $userId);
         $stmt->execute();
-
-        echo $likedSongsJson; // Output the updated liked songs JSON (optional)
     } else {
         http_response_code(400); // Bad Request
         echo json_encode(['error' => 'Invalid input']);

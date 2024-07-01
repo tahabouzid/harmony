@@ -47,12 +47,11 @@
 
 .like-button i {
     font-size: 24px;
-    color: rgb(232, 232, 247); /* Default color */
+    color: #e74c3c; /* Liked color */
     cursor: pointer;
 }
-
-.like-button.active i {
-    color: #e74c3c; /* Liked color */
+.gone {
+    display: none;
 }
 
 /* Exclude like button from inheriting certain styles */
